@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(34, 34, 34);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-main {
+  background-color: rgb(78, 141, 104);
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #220675;   
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input fields */
+input {
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  margin-bottom: 10px;
+   background-color: rgb(206, 244, 231);
+   
+}
+
+/* Add spacing between Name and Surname fields */
+.nameandsurname {
+  display: flex;
+  gap: 35px; /* creates space between fields */
+}
+
+/* Center the button */
+button {
+  padding: 10px;
+  border-radius: 7px;
+  background-color: #031d02a1;
+  border: none;
+  width: 170px;
+  margin: 20px auto 0; /* centers button horizontally */
+  display: block; /* ensures margin auto works */
+  cursor: pointer;
+  color:blanchedalmond;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #066103a1;
+}
